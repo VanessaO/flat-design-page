@@ -73,3 +73,83 @@ body div {
 	margin: 0 auto;
 	border: 1px solid red;
 }
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header-wrapper {
+	overflow: hidden;
+	background-color: #3b3b3b;
+}
+
+#header {
+	overflow: hidden;
+	height: 150px;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 400px;
+}
+
+#logo h1 a {
+	display: block;
+	line-height: 150px;
+	text-decoration: none;
+	font-family: 'Kavoon', cursive;
+	font-size: 40px;
+	color: #fff;
+}
+
+/** MENU */
+
+#menu {
+
+	float: right;
+
+	/* The below property is unnecessary if you just display it inline and float left.
+	It will take up that space anyways!!
+	width: 700px; */
+}
+
+#menu ul {
+	float: right;
+	margin: 0;
+	padding: 60px 0 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-left: 10px;
+}
+
+#menu a {
+	display: block;
+	padding: 10px 20px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+}
+
+#menu .active a:hover {
+	background-color: #00a987;
+}
+
+#menu .active a:active {
+	background-color: #20e1b6;
+}
+
+#menu a:hover {
+	text-decoration: none;
+}
