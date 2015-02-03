@@ -153,3 +153,111 @@ body div {
 #menu a:hover {
 	text-decoration: none;
 }
+
+/** CONTENT */
+
+#featured-wrapper {
+	overflow: hidden;
+	padding: 50px 0;
+	background-image: url('images/geometry.png');
+	background-color: white;
+	border-top: 1px solid #E7E7E7;
+	text-align: center;
+}
+
+#featured header {
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+
+/** BUTTON STYLING */
+
+.button {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 30px;
+	background: #20e1b6;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-o-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255, 1);
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #20e1b6;
+}
+
+.button-alt {
+	background: #20e1b6;
+}
+
+.button-alt:hover {
+	background-color: #00ad87;
+}
+
+.button-alt:active {
+	background-color: #FC3F68;
+}
+
+.button-small {
+	margin: 5px 0;
+	box-shadow: none;
+	font-size: 6px;
+	color: #fff;
+}
+
+/** PORTFOLIO */
+
+#content header {
+	display: block;
+	margin-bottom: 1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+
+#two-column h3 {
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#two-column img {
+	float: left;
+	margin-right: 30px;
+	padding: 5px;
+	background: #fff;
+	opacity: 0.8;
+}
+
+#two-column a:hover img {
+	opacity: 0.9;
+}
+
+#two-column .box-style {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+#two-column #tbox1 {
+	float: left;
+	width: 500px;
+}
+
+#two-column #tbox2 {
+	float: right;
+	width: 500px;
+}
