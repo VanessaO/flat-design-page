@@ -60,18 +60,11 @@ body {
 	font-size: 13px;
 }
 
-/*// FOR LAYOUT PURPOSES ONLY-- DELETE LATER //*/
-
-body div {
-	border: 1px solid;
-}
-
 /** CONTAINER */
 
 .container {
 	width: 1100px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 .clearfix {
@@ -159,7 +152,7 @@ body div {
 #featured-wrapper {
 	overflow: hidden;
 	padding: 50px 0;
-	background-image: url('images/geometry.png');
+	background-image: url('img/knitting_bg.png');
 	background-color: white;
 	border-top: 1px solid #E7E7E7;
 	text-align: center;
@@ -223,7 +216,7 @@ body div {
 
 #content header {
 	display: block;
-	margin-bottom: 1px;
+	margin: 20px 0;
 	font-size: 30px;
 	font-weight: 400;
 	color: #333333;
@@ -264,7 +257,7 @@ body div {
 
 #banner-wrapper {
 	overflow: hidden;
-	padding: 12px 0 1px 0;
+	padding: 12px 0;
 	background-color: #20e1b6;
 	text-align: center;
 	color: #fff;
@@ -275,3 +268,49 @@ body div {
 	font-size: 40px;
 }
 
+/** FOOTER */
+
+#footer-wrapper {
+	overflow: hidden;
+	padding: 35px 0px;
+	background: #444;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;
+}
+
+#footer {
+	overflow: hidden;
+	color: #B1B1B1;
+}
+
+#footer header {
+	margin: 2px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#footer #fbox1 {
+	float: left;
+	width: 700px;
+}
+
+#footer #fbox2 {
+	float: right;
+	width: 300px;
+}
+
+#footer a {
+	color: #D0D0D0;
+}
+
+#footer .button-small {
+	color: #ffffff;
+}
+
+#copyright {
+	text-align: center;
+}
+#copyright a {
+	color: #818181;
+}
