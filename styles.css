@@ -254,10 +254,24 @@ body div {
 
 #two-column #tbox1 {
 	float: left;
-	width: 500px;
+	width: 50%;
 }
 
-#two-column #tbox2 {
-	float: right;
-	width: 500px;
+#two-column #tbox2 {} /** NOT SETTING A WIDTH OR FLOAT FOR THIS BOX
+						SOLVED THE PROBLEM? */
+
+/** THIRD SECTION // BANNER */
+
+#banner-wrapper {
+	overflow: hidden;
+	padding: 12px 0 1px 0;
+	background-color: #20e1b6;
+	text-align: center;
+	color: #fff;
 }
+
+#banner p {
+	letter-spacing: -1px;
+	font-size: 40px;
+}
+
